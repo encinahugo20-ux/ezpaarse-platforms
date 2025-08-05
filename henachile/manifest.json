@@ -1,0 +1,16 @@
+{
+  "name": "ENAC Recursos Digitales",
+  "domain": "recursosdigitales.enac.cl",
+  "qualify": [
+    {
+      "pattern": "/ebook/(?P<book_id>[^/]+)/"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "/ebook/(?P<book_id>[^/]+)/",
+      "type": "book",
+      "name": "Libro electrónico"
+    }
+  ]
+}
